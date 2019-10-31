@@ -1,0 +1,246 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0A0A0A !important;
+}
+a{
+    text-decoration: none;
+    color: white ;
+}
+.mainBody{
+    display: flex;
+    width:100%;
+    height: 100vh;
+}
+#left{
+    width:40%;
+
+    background-color: #0A0A0A;
+    color:#2D3A45;
+    
+}
+#right{
+    width:60%;
+    height: 100%;
+    overflow: hidden;
+}
+#imgBack{
+    filter: blur(10px);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width:50%;
+    font-size:22px;
+    margin: 40px auto auto auto;
+}
+nav a{
+    color: #2D3A45;
+}
+nav a:hover{
+    color : white;
+    text-decoration: underline blue;
+}
+#mainLeft{
+    width:40vw;
+    height:35vw;
+    position: absolute;
+    left:10% ;
+    top:15%;
+    background: #021220 ;
+    z-index: 99999;
+    box-shadow: 5px 19px  20px black;
+}
+#mainRight{
+    width:40vw;
+    height:35vw;
+    position: absolute;
+    right:15% ;
+    top:5%;
+    background: #021220 ;
+    z-index: 999999;
+    box-shadow: 5px 9px  20px black;
+}
+#imgMainRight{
+    width:100%;
+    height: 100%;
+}
+#contentMainLeft{
+    margin:120px 60px;
+    font-size: 24px;
+}
+.header-white{
+    color: white;
+    font-size:50px;
+}
+#name{
+    font-size:30px;
+}
+#buttonMain{
+    width:14vw;
+    height: 3vw;
+    background: #004fb2;
+    border:none;
+    color:white;
+    margin-top: 17%;
+    border-radius:5px;
+    font-size:18px;
+}
+#social{
+    position: absolute;
+    position:fixed;
+    right:0;
+    top:0%;
+    height: 100vh;
+    z-index:999999;
+    background-color:  #021220 ;;
+    width:5vw;
+    color:white !important;
+    font-size:40px;
+}
+#socialHolder{
+    margin-left: 25%;
+   
+    
+}
+#social a{color:white !important;   }
+i{  
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.center{
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+#vl{
+    border-left: 4px solid white;
+    height: 160px;
+    margin-left:30%;
+    
+}
+#vll{
+    border-left: 4px solid white;
+    height: 154px;
+    margin-left:30%;
+}
+#socialHolder i:hover{
+    transform: scale(1.2);
+}
+.text-gray{color:#2D3A45;}
+#about{
+    height: 40vw;
+    width:100%;
+
+}
+#photo{
+    width:90%;
+    height: auto;
+    display: block;
+    margin-top:40px;
+    border: 4px solid #2D3A45;
+}
+#aboutHeader{
+    margin:60px auto 20px auto;
+    display: flex;
+    width:21%;
+    justify-content: space-between;
+    
+}
+.text-white{
+    color:white;
+
+}
+#aboutMain{
+    display: flex;
+    width:90%;
+    margin: 40px 5%;
+}
+#leftAbout{
+    width:45%;
+}
+#skill{
+    width:45%;
+    margin-top:40px;
+    margin-left:40px;
+}
+#leftAboutFlex{
+    display: flex;
+    width:100%;
+
+}
+#leftLeftAbout{
+    width:50%;
+}
+strong{color:white;}
+#rightLeftAbout{
+    width:50%;
+    font-size:20px;
+    margin:auto 2px ;
+}
+@media only screen and (max-width:500px){
+    .mainBody{
+        flex-direction:column;
+        
+    }
+    
+    #left{
+        height:10%;
+        width:100%
+    }
+    #mainLeft h1{font-size:30px;}
+    #name ,p{font-size:20px;}
+    #contentMainLeft{margin-top:200px;}
+    #mainLeft{width:100%;left:0;height:90vh;top:50px;box-shadow:none;margin-top:18px}
+    #buttonMain{width:30vh;height:7vh}
+    #mainRight{right:20px;top:90px;}
+    #social{height: 81px;
+        margin-top: 51px;
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 325%;
+       
+    }
+  nav{margin-top:20px;}
+    #imgBack{display:none}
+    #vl,#vll{display:none;}
+    #aboutHeader h1{font-size:25px;}
+    #aboutMain {display:block;}
+    #leftAboutFlex{display:block;}
+    #leftAbout, #skill , #leftLeftAbout, #rightLeftAbout{width:90%;margin-left:5%}
+}
+
+  .progress {
+    height: 30px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+  }
+  .progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+            box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    -webkit-transition: width .6s ease;
+         -o-transition: width .6s ease;
+            transition: width .6s ease;
+  }

@@ -10,6 +10,7 @@ body{
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0A0A0A !important;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -17,11 +18,12 @@ a{
 }
 .mainBody{
     display: flex;
-    width:100%;
+    width:97vw;
     height: 100vh;
 }
 #left{
     width:40%;
+
 
     background-color: #0A0A0A;
     color:#2D3A45;
@@ -41,6 +43,7 @@ nav{
     width:50%;
     font-size:22px;
     margin: 40px auto auto auto;
+    scroll-behavior: smooth;
 }
 nav a{
     color: #2D3A45;
@@ -97,7 +100,7 @@ nav a:hover{
 #social{
     position: absolute;
     position:fixed;
-    right:0;
+    right:-3vw;
     top:0%;
     height: 100vh;
     z-index:999999;
@@ -105,6 +108,7 @@ nav a:hover{
     width:5vw;
     color:white !important;
     font-size:40px;
+
 }
 #socialHolder{
     margin-left: 25%;
@@ -138,7 +142,7 @@ i{
 .text-gray{color:#2D3A45;}
 #about{
     height: 40vw;
-    width:100%;
+    width:97vw;
 
 }
 #photo{
@@ -186,6 +190,40 @@ strong{color:white;}
     font-size:20px;
     margin:auto 2px ;
 }
+#work{
+    height:40vw;
+    width:97vw;
+    margin-top:60px;
+}
+#workMain{
+    display: flex;
+    
+    width:95vw;
+}
+.work{
+
+    width:40%;
+    background: #2D3A45;
+    margin:5%;
+}
+
+.workImg{
+    width: 100%;
+    height: auto;
+    
+    display: block;
+    outline: none;
+    border: none;
+}
+.work img:hover{
+    transform: scale(1.2);
+}
+footer{
+    position: absolute;
+    bottom:-1300px;
+    font-size:20px;
+    margin-left:80px
+}
 @media only screen and (max-width:500px){
     .mainBody{
         flex-direction:column;
@@ -207,9 +245,13 @@ strong{color:white;}
         width: 100%;
         display: block;
         position: absolute;
-        top: 325%;
+        top: 498%;
        
     }
+   #work{margin-top: 200vh;width:100%}
+.work{width:90%;}
+footer{bottom:-2159px;}
+    #workMain{display:block;margin-left:auto;margin-right:auto; width:100%;}
   nav{margin-top:20px;}
     #imgBack{display:none}
     #vl,#vll{display:none;}
@@ -244,3 +286,24 @@ strong{color:white;}
          -o-transition: width .6s ease;
             transition: width .6s ease;
   }
+@keyframes moveLeft{
+    from{
+    transform : translateX(0);
+    }
+    to{
+    transform : translateX(-3vw);
+    position: fixed;
+    }
+}
+@keyframes moveRight{
+    0%{
+	transform : translate(0);
+    }
+    100%{
+	transform : translate(3vw);
+    }
+}
+#social:hover{
+    animation:moveLeft 1s ;
+    transform : translateX(-3vw);
+}

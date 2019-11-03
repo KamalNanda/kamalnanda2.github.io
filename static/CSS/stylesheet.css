@@ -248,7 +248,7 @@ footer{
         top: 498%;
        
     }
-   #work{margin-top: 200vh;width:100%}
+   #work{margin-top: 340vw;width:100%}
 .work{width:90%;}
 footer{bottom:-2159px;}
     #workMain{display:block;margin-left:auto;margin-right:auto; width:100%;}
@@ -292,18 +292,14 @@ footer{bottom:-2159px;}
     }
     to{
     transform : translateX(-3vw);
-    position: fixed;
+
     }
 }
 @keyframes moveRight{
     0%{
-	transform : translate(0);
+	transform : translate(-3vw);
     }
     100%{
-	transform : translate(3vw);
+	transform : translate(0);
     }
-}
-#social:hover{
-    animation:moveLeft 1s ;
-    transform : translateX(-3vw);
 }

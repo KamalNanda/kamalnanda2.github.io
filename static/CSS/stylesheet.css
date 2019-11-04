@@ -250,7 +250,7 @@ footer{
     }
    #work{margin-top: 340vw;width:100%}
 .work{width:90%;}
-footer{bottom:-2159px;}
+.foot{bottom:0;}
     #workMain{display:block;margin-left:auto;margin-right:auto; width:100%;}
   nav{margin-top:20px;}
     #imgBack{display:none}

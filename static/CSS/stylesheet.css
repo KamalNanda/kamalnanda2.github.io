@@ -233,6 +233,9 @@ strong{color:white;}
    .mainBody{height:80vh}
    #work{margin-top:180px;}
 }
+@media only screen and (min-width:700px) and (max-width:790px){
+    #contentMainLeft p{width:50%}
+}
 @media only screen and (max-width:800px){
     .mainBody{
         flex-direction:column;

@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: inherit;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
     margin: 0;
     font-size: 16px;

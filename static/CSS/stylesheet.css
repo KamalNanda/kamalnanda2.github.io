@@ -218,9 +218,9 @@ strong{color:white;}
 .work img:hover{
     transform: scale(1.2);
 }
-footer{
+.foot{
     position: absolute;
-    bottom:-1300px;
+    bottom:0;
     font-size:20px;
     margin-left:80px
 }

@@ -29,7 +29,7 @@ a{
 
 
     background-color: #0A0A0A;
-    color:#2D3A45;
+    color:#5d6e7c;
     
 }
 #right{
@@ -142,7 +142,7 @@ i{
 #socialHolder i:hover{
     transform: scale(1.2);
 }
-.text-gray{color:#2D3A45;}
+.text-gray{color:#5d6e7c;}
 #about{
     height: 40vw;
     width:97vw;

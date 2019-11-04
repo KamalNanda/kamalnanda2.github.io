@@ -224,16 +224,26 @@ strong{color:white;}
     font-size:20px;
     margin-left:80px
 }
-@media only screen and (max-width:500px){
+@media only screen and (max-width:1100px){
+    #contentMainLeft{
+        margin-top:30px;
+    }
+    #contentMainLeft h1{font-size:40px;}
+    #buttonMain{width:220px;height:4vw}
+   .mainBody{height:80vh}
+   #work{margin-top:180px;}
+}
+@media only screen and (max-width:800px){
     .mainBody{
         flex-direction:column;
-        
+        width:100%;
     }
     
     #left{
         height:10%;
-        width:100%
+        width:100%;
     }
+    #mainLeft, #about {width:100% !important;}
     #mainLeft h1{font-size:30px;}
     #name ,p{font-size:20px;}
     #contentMainLeft{margin-top:200px;}
@@ -245,8 +255,8 @@ strong{color:white;}
         width: 100%;
         display: block;
         position: absolute;
-        top: 498%;
-       
+        top: 538%;
+       left:0 !important;
     }
    #work{margin-top: 340vw;width:100%}
 .work{width:90%;}

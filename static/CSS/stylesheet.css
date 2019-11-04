@@ -246,6 +246,7 @@ strong{color:white;}
         height:10%;
         width:100%;
     }
+    #photo{margin-left:auto;margin-right:auto}
     #mainLeft, #about {width:100% !important;}
     #mainLeft h1{font-size:30px;}
     #name ,p{font-size:20px;}

@@ -255,22 +255,31 @@ strong{color:white;}
         width: 100%;
         display: block;
         position: absolute;
-        top: 538%;
+        top: 459vh;
        left:0 !important;
     }
-   #work{margin-top: 200vh;width:100%}
-.work{width:90%;}
+   #work{margin-top: 205vh;width:100%}
+.work{width:70%;margin-left:auto; margin-right:auto}
 .foot{bottom:0;}
     #workMain{display:block;margin-left:auto;margin-right:auto; width:100%;}
   nav{margin-top:20px;}
     #imgBack{display:none}
     #vl,#vll{display:none;}
-    #aboutHeader h1{font-size:25px;}
+    #aboutHeader h1{font-size:25px;margin-top:20vh !important;}
     #aboutMain {display:block;}
     #leftAboutFlex{display:block;}
     #leftAbout, #skill , #leftLeftAbout, #rightLeftAbout{width:90%;margin-left:5%}
 }
-
+@media only screen and (max-width:340px){
+    #social{top:455vh;}
+    #work{margin-top:220vh;}
+    #work p{width:85%;margin-left:20px !important;}
+}
+@media only screen and (min-width:341px) and (max-width:380px){
+    #social{top:460vh ;}
+    #work{margin-top:220vh;}
+    #work p{margin-left:30px !important;width:85%}
+}
   .progress {
     height: 30px;
     margin-top:20px;

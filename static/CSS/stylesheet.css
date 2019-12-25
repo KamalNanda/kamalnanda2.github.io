@@ -265,7 +265,7 @@ strong{color:white;}
         top: 459vh;
        left:0 !important;
     }
-   #work{margin-top: 255vh;width:100%}
+   #work{margin-top: 235vh;width:100%}
 .work{width:70%;margin-left:auto; margin-right:auto}
 .foot{bottom:0;}
     #workMain{display:block;margin-left:auto;margin-right:auto; width:100%;}
@@ -279,7 +279,7 @@ strong{color:white;}
 }
 @media only screen and (max-width:340px){
     #social{top:455vh;}
-    #work{margin-top:265vh;}
+    #work{margin-top:245vh;}
     #work p{width:85%;margin-left:20px !important;}
 }
 @media only screen and (min-width:341px) and (max-width:380px){

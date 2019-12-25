@@ -152,7 +152,7 @@ i{
     width:90%;
     height: auto;
     display: block;
-    margin-top:40px;
+    margin-top:100px;
     border: 4px solid #2D3A45;
 }
 #aboutHeader{
@@ -265,7 +265,7 @@ strong{color:white;}
         top: 459vh;
        left:0 !important;
     }
-   #work{margin-top: 205vh;width:100%}
+   #work{margin-top: 255vh;width:100%}
 .work{width:70%;margin-left:auto; margin-right:auto}
 .foot{bottom:0;}
     #workMain{display:block;margin-left:auto;margin-right:auto; width:100%;}
@@ -279,12 +279,12 @@ strong{color:white;}
 }
 @media only screen and (max-width:340px){
     #social{top:455vh;}
-    #work{margin-top:220vh;}
+    #work{margin-top:265vh;}
     #work p{width:85%;margin-left:20px !important;}
 }
 @media only screen and (min-width:341px) and (max-width:380px){
     #social{top:460vh ;}
-    #work{margin-top:220vh;}
+    #work{margin-top:260vh;}
     #work p{margin-left:30px !important;width:85%}
 }
   .progress {
@@ -300,6 +300,7 @@ strong{color:white;}
   .progress-bar {
     float: left;
     width: 0;
+	padding:5px;
     height: 100%;
     font-size: 16px;
     line-height: 20px;

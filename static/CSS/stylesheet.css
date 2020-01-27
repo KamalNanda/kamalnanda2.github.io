@@ -197,12 +197,13 @@ strong{color:white;}
 }
 #workMain{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width:95vw;
-    margin-left: 45px
+    margin-left: 45px;
+    margin-bottom : 60px
 }
-.work{
 
+.work{
     width:75%;
     background: #2D3A45;
     margin:5%;
@@ -259,7 +260,7 @@ strong{color:white;}
         width: 100%;
         display: block;
         position: absolute;
-        top: 575vh;
+        top: 621vh;
        left:0 !important;
     }
    #work{margin-top: 222vh;width:100%}
@@ -275,12 +276,12 @@ strong{color:white;}
     #leftAbout, #skill , #leftLeftAbout, #rightLeftAbout{width:90%;margin-left:5%}
 }
 @media only screen and (max-width:340px){
-    #social{top:550vh;}
+    #social{top:582vh;}
     #work{margin-top:234vh;}
     #work p{width:85%;margin-left:20px !important;}
 }
 @media only screen and (min-width:341px) and (max-width:380px){
-    #social{top:555vh ;}
+    #social{top:592vh ;}
     #work{margin-top:220vh;}
     #work p{margin-left:30px !important;width:85%}
 }

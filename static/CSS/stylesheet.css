@@ -140,11 +140,11 @@ i{
     transform: scale(1.2);
 }
 .text-gray{color:#2D3A45;}
-#about{
+/* #about{
     height: 40vw;
     width:97vw;
 
-}
+} */
 #photo{
     width:90%;
     height: auto;
@@ -233,7 +233,7 @@ strong{color:white;}
     #contentMainLeft h1{font-size:40px;}
     #buttonMain{width:220px;height:4vw}
    .mainBody{height:80vh}
-   #work{margin-top:180px;}
+/*    #work{margin-top:180px;} */
 }
 @media only screen and (min-width:700px) and (max-width:790px){
     #contentMainLeft p{width:50%}
@@ -260,10 +260,10 @@ strong{color:white;}
         width: 100%;
         display: block;
         position: absolute;
-        top: 621vh;
+        top: 572vh;
        left:0 !important;
     }
-   #work{margin-top: 222vh;width:100%}
+/*    #work{margin-top: 222vh;width:100%} */
 .work{width:70%;margin-left:auto; margin-right:auto}
 .foot{bottom:0;}
     #workMain{display:block;margin-left:auto;margin-right:auto; width:100%;}
@@ -276,7 +276,7 @@ strong{color:white;}
     #leftAbout, #skill , #leftLeftAbout, #rightLeftAbout{width:90%;margin-left:5%}
 }
 @media only screen and (max-width:340px){
-    #social{top:582vh;}
+    #social{top:755vh;}
     #work{margin-top:234vh;}
     #work p{width:85%;margin-left:20px !important;}
 }

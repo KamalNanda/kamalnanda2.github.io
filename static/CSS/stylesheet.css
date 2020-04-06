@@ -276,12 +276,12 @@ strong{color:white;}
     #leftAbout, #skill , #leftLeftAbout, #rightLeftAbout{width:90%;margin-left:5%}
 }
 @media only screen and (max-width:340px){
-    #social{top:755vh;}
+    #social{top:777vh;}
     #work{margin-top:234vh;}
     #work p{width:85%;margin-left:20px !important;}
 }
 @media only screen and (min-width:341px) and (max-width:380px){
-    #social{top:592vh ;}
+    #social{top:780vh ;}
     #work{margin-top:220vh;}
     #work p{margin-left:30px !important;width:85%}
 }
